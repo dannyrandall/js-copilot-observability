@@ -1,0 +1,1 @@
+# node-copilot-observability
