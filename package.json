@@ -1,0 +1,34 @@
+{
+  "name": "copilot-observability",
+  "version": "0.1.0",
+  "description": "example service with tracing deployed to AWS with copilot",
+  "main": "app.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dannyrandall/node-copilot-observability.git"
+  },
+  "keywords": [
+    "opentelemetry",
+    "tracing",
+    "copilot",
+    "aws"
+  ],
+  "author": "dannyrandall",
+  "bugs": {
+    "url": "https://github.com/dannyrandall/node-copilot-observability/issues"
+  },
+  "homepage": "https://github.com/dannyrandall/node-copilot-observability#readme",
+  "dependencies": {
+    "@opentelemetry/api": "^1.1.0",
+    "@opentelemetry/exporter-trace-otlp-grpc": "^0.28.0",
+    "@opentelemetry/id-generator-aws-xray": "^1.0.1",
+    "@opentelemetry/instrumentation-aws-sdk": "^0.6.0",
+    "@opentelemetry/instrumentation-express": "^0.28.0",
+    "@opentelemetry/instrumentation-http": "^0.28.0",
+    "@opentelemetry/propagator-aws-xray": "^1.0.1",
+    "@opentelemetry/sdk-trace-node": "^1.2.0",
+    "aws-sdk": "^2.1125.0",
+    "express": "^4.18.0"
+  }
+}
