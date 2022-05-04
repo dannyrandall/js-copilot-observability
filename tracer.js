@@ -20,7 +20,9 @@ module.exports = (serviceName) => {
         }
       }),
       new ExpressInstrumentation(),
-      new AwsInstrumentation()
+      new AwsInstrumentation({
+        suppressInternalInstrumentation: true
+      })
     ],
     resource: Resource.default().merge(
       new Resource({

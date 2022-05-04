@@ -1,11 +1,10 @@
 'use strict';
 
-const tracer = require('./tracer')('js-copilot-observability');
-const express = require("express");
 const opentelemetry = require('@opentelemetry/api');
 const aws = require("aws-sdk");
 
-const app = express();
+const tracer = require('./tracer')('js-copilot-observability');
+const app = require("express")();
 const port = 8080;
 const s3 = new aws.S3({ apiVersion: '2006-03-01' });
 
