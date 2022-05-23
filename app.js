@@ -12,7 +12,7 @@ app.get("/healthz", (req, res) => {
 	res.status(200).send();
 });
 
-app.get("/js-copilot-observability", (req, res) => {
+app.get("/buckets", (req, res) => {
 	const span = opentelemetry.trace.getSpan(opentelemetry.context.active());
 	const traceId = getXRayTraceId(span);
 
