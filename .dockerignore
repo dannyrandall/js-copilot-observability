@@ -1,2 +1,6 @@
+# dependency directories
 node_modules/
+
+# copilot directories
 copilot/
+infrastructure/
