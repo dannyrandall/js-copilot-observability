@@ -1,5 +1,5 @@
 {
-  "name": "copilot-observability",
+  "name": "js-copilot-observability",
   "version": "0.1.0",
   "description": "example service with tracing deployed to AWS with copilot",
   "main": "app.js",
