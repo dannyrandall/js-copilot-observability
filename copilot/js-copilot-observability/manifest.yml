@@ -1,4 +1,4 @@
-# The manifest for the "movies-js-lbws" service.
+# The manifest for the "js-copilot-observability" service.
 # Read the full specification for the "Load Balanced Web Service" type at:
 #  https://aws.github.io/copilot-cli/docs/manifest/lb-web-service/
 
@@ -12,7 +12,6 @@ http:
   # To match all requests you can use the "/" path.
   path: "/"
   healthcheck: "/healthz"
-  alias: "js-observability.copilot.dannyrandall.dev"
 
 # Configuration for your containers and service.
 image:
