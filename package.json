@@ -6,7 +6,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dannyrandall/node-copilot-observability.git"
+    "url": "git+https://github.com/dannyrandall/js-copilot-observability.git"
   },
   "keywords": [
     "opentelemetry",
@@ -16,9 +16,9 @@
   ],
   "author": "dannyrandall",
   "bugs": {
-    "url": "https://github.com/dannyrandall/node-copilot-observability/issues"
+    "url": "https://github.com/dannyrandall/js-copilot-observability/issues"
   },
-  "homepage": "https://github.com/dannyrandall/node-copilot-observability#readme",
+  "homepage": "https://github.com/dannyrandall/js-copilot-observability#readme",
   "dependencies": {
     "@opentelemetry/api": "^1.1.0",
     "@opentelemetry/exporter-trace-otlp-grpc": "^0.28.0",
