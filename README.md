@@ -1,1 +1,1 @@
-# node-copilot-observability
+# js-copilot-observability
